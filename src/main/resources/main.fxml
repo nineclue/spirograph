@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="dImg" fitHeight="600.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+            <Circle fx:id="cclO" fill="WHITE" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="cclI" fill="#22fc00" opacity="0.1" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="dotO" fill="DODGERBLUE" layoutX="100.0" radius="2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="dotI" fill="DODGERBLUE" layoutX="50.0" opacity="0.1" radius="2.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="dotP" fill="DODGERBLUE" layoutX="50.0" radius="2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
